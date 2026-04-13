@@ -226,3 +226,35 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,macos
+
+# Environment
+.env
+.env.*
+
+# Virtual environment
+.venv/
+venv/
+
+# FastAPI / Uvicorn
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# PostgreSQL
+*.pgsql
+*.sql
+pg_dump/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# React
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
