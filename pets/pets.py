@@ -5,7 +5,8 @@
 # Pet Documents (in form of URLs).
 
 class Pet:
-    # constructor method
+    # constructor method (template definition)
+    # defined data types
     def __init__(self, name: str, age: int, species: str, gender: str):
         self.name = name
         self.age = age
